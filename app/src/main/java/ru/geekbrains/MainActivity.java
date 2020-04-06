@@ -2,6 +2,7 @@ package ru.geekbrains;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         TextView text = findViewById(R.id.text1);
         String txt = text.getText().toString();
         text.setText(txt + "!!");
+
+        Button btn = findViewById(R.id.button);
     }
 }
