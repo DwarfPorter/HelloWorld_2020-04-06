@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         String txt = text.getText().toString();
         text.setText(txt + "!!");
 
-        Button btn = findViewById(R.id.button);
+        Button btn = findViewById(R.id.button2);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
